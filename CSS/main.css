@@ -36,6 +36,7 @@ body {
 
     border-radius: 20px;
     padding: 40px;
+    padding-top: 20px;
     box-sizing: border-box;
     /* background: #ecf0f3; */
     background: #FDDD80;
@@ -96,38 +97,60 @@ input::placeholder {
     background: #ecf0f3;
     padding: 10px;
     padding-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     height: 50px;
     font-size: 14px;
     border-radius: 50px;
     box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
   }
-  #To option,#From option,#Day option{
+  #People{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
+  #sideby{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  #To option,#From option,#Day option,#People option{
     background-color:#A6BB8D;
     color: #666; 
   }
   .inputs {
-    /*display: flex;*/
+    display: flex;
       text-align: left;
-      margin-top: 30px;
+      margin-top: 5px;
   
   }
-  .inputs2,.inputs3{
+  .inputs2,.inputs3,.inputs4{
     display: flex;
     text-align: left;
     margin-top: 30px;  
   }
   .inputs p{
-    margin-top: 25px;
+    margin-top: 15px;
     margin-right: 25px ;
     font-size: 17px;
     font-weight: bold;
 
   }
-  .inputs2 p,.inputs3 p{
+  .inputs2 p,.inputs3 p,.inputs4 p{
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-right: 5px ;
     font-size: 17px;
   }
